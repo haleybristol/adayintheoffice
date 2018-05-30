@@ -1,0 +1,61 @@
+button {
+  background: #0000ff;
+  color: white;
+  border-radius: 5px;
+  border-color: #0000ff;
+  font-size: 16px;
+  padding: 5px 10px;
+  font-family: 'VT323', monospace;
+}
+
+#peach-container {
+  width: 900px;
+  margin: 0 auto;
+  background: #FAEBD7;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  background-image: url('https://i.pinimg.com/originals/e3/f0/a8/e3f0a8b6296db536699f9baec7f18926.jpg');
+  font-family: 'VT323', monospace;
+  background-size: cover;
+}
+
+.choose-buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.adjust {
+  margin: 0;
+}
+
+.display {
+  display: none;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+a h3 {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+#content-container {
+  position: relative;
+  padding:60px 30px;
+
+}
+
+button:hover {
+  color: orange;
+}
